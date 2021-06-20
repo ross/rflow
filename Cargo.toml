@@ -1,0 +1,20 @@
+[package]
+name = "rflow"
+version = "0.1.0"
+authors = ["Ross McFarland <rwmcfa1@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "rflow"
+path = "src/lib.rs"
+
+[[bin]]
+name = "recorder"
+path = "src/recorder.rs"
+
+[[bin]]
+name = "dumper"
+path = "src/dumper.rs"
+
+[dependencies]
+chrono = "0.4.19"
